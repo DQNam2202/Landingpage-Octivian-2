@@ -1,0 +1,37 @@
+.team {
+  padding: 150px 0;
+  background-color: $gray-lighter;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 370px;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  &-images {
+    max-width: 670px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: $gray;
+    line-height: calcLineH(36, 56);
+    margin-bottom: 30px;
+  }
+  &-desc {
+    font-size: 18px;
+    line-height: calcLineH(18, 34);
+    margin-bottom: 60px;
+  }
+  &-image2 {
+    margin-left: auto;
+    margin-top: 30px;
+  }
+}

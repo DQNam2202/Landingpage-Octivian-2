@@ -1,0 +1,3 @@
+@function calcLineH($s, $h) {
+  @return $h / $s;
+}
